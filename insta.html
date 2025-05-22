@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 900px;
+      background-color: #fff;
+      margin-top: 40px;
+      border: 1px solid #dbdbdb;
+      border-radius: 8px;
+      padding: 30px;
+    }
+
+    .profile-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .profile-header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-right: 30px;
+    }
+
+    .profile-info h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .profile-info p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .bio {
+      margin-top: 10px;
+    }
+
+    .bio p {
+      margin: 4px 0;
+    }
+
+    .posts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .posts img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .note {
+      margin-top: 25px;
+      font-size: 13px;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="profile-header">
+      <img src="alfredo.jpg" alt="Foto de perfil de Alfredo">
+      <div class="profile-info">
+        <h2>@alfredosilva</h2>
+        <p>Alfredo Silva</p>
+        <div class="bio">
+          <p>Desenvolvedor full stack 💻</p>
+          <p>Meu melhor amigo de 4 patas: bob 🐶</p>
+          <p>São Paulo • Café • Códigos</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="posts">
+      <!-- Bob aparece 3 vezes com aparência similar -->
+      <img src="cafe.jpeg" alt="Bob dormindo" title="Cafezin">
+      <img src="alfredo.jpg" alt="Bob dormindo 2" title="eu bem gatinho rs">
+      <img src="bobbrabo.jpeg" alt="Bob de novo" title="Bob no final de semana">
+
+      <!-- Outras postagens normais -->
+      <img src="cafezinho.jpg" alt="Café matinal" title="Café para codar">
+      <img src="bobfeliz.jpg" alt="Foto de código" title="bob">
+      <img src="bobsendobobjpg" alt="Rua de SP" title="bob">
+      <img src="pc.jpg" alt="Notebook" title="Setup da semana">
+      <img src="pordosol.jpg" alt="Pôr do sol" title="Fim de tarde no parque">
+      <img src="livro.jpeg" alt="Leitura" title="Estudando redes">
+    </div>
+
+    <div class="note">
+      Perfil fictício criado para fins educacionais.
+    </div>
+  </div>
+
+</body>
+</html>
